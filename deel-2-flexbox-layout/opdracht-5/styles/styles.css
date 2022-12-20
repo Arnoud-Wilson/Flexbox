@@ -1,1 +1,41 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid red;
+}
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+    border: 1px dotted dodgerblue;
+}
+
+header,
+footer {
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.middle-row article {
+    flex-basis: 100vw;
+    order: 2;
+}
+
+.middle-row nav {
+    order: 1;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.middle-row aside {
+    order: 3;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

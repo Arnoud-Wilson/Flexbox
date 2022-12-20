@@ -1,1 +1,78 @@
-/*Schrijf hier jouw CSS*/
+/*opdracht 1*/
+
+.assignment-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 2*/
+
+.assignment-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.assignment-two li {
+    flex-basis: 500px;
+}
+
+/*opdracht 3*/
+
+.assignment-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.item-one {
+    align-self: flex-start;
+}
+
+.item-two {
+    align-self: center;
+}
+
+.item-three {
+    align-self: flex-end;
+}
+
+/*opdracht 4*/
+
+.assignment-four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+/*opdracht 5*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-one {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 36px;
+}
+
+.list-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 36px;
+}
+
+.list-three {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 36px;
+}
